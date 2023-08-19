@@ -1,0 +1,53 @@
+.cabecalho{
+    background-image: linear-gradient(to right, #db0e0e, #db3232, #942f2f);
+    border: 4px solid #000000;
+    padding: 20px;
+}
+
+.menu{
+font-weight: bold;
+font-size: 30px;
+height: 380px;
+width: 100%;
+background-image: linear-gradient(to bottom, #db0e0e, #db3232, #942f2f);
+
+}
+
+.recepcao {
+    padding: 20px;
+    text-align: center; 
+}
+
+.botao {
+    display: inline-block;
+    background-color: #800020;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao passar o mouse */
+}
+
+.botao:hover {
+    background-color: #600018; 
+}
+
+.texto-recepcao{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.index{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #db0e0e, #db3232, #942f2f);
+}
+
+
+.logo-recepcao{
+    margin-bottom: 50px;
+}
