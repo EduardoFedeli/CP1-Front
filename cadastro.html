@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello</title>
     <link rel="stylesheet" href="../CP1-FrontEnd/CSS/style.css" type="text/css">
+    <script src="../CP1-FrontEnd/JS/script.js" defer></script>
 </head>
 <body>
-    <center>
-        <div class="cabecalho">
-        
-            <img src="../CP1-FrontEnd/imagens/vinheriaagnello.png" alt = "Descrição da imagem" width="200" height="200">
-        
-       
+    <header class="cabecalho">
+        <img src="../CP1-FrontEnd/imagens/vinheriaagnello.png" alt="Logo da Vinícola Agnello" class="logo">
+    </header>
     
-        <div class="menu">
-            <a href="../CP1-FrontEnd/home.html">Home</a><br>
+    <div class="background-image"></div>
+    
+    <div class="container">
+        <div class="cadastro">
+            <h1>Cadastrar</h1>
+        
+            <div class="label-float">
+                <label id="lblusuario" for="usuario" >Digite o nome de Usuário:</label>
+                <input type="text" id="usuario" placeholder=" "required />
+                <p id="erro" style="color: red;"></p>
+            </div>
+        
+            <div class="label-float">
+                <label id="lblsenha" for="senha">Digite a senha:</label>
+                <input type="text" id="senha" placeholder=" "required />
+                <p id="erro" style="color: red;"></p>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        
         </div>
-    </center>
+    </div>
+
+
+
+    <a href="../CP1-FrontEnd/home.html" class="button">Voltar para a Home</a>  
 </body>
 </html>
